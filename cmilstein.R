@@ -15,7 +15,7 @@ brown<-function(w0,n,T){
 }
 W<-brown(w0=0,n,T)
 
-#Generamos la función que simula el proceso cir
+#Generamos la función que simula el proceso oug
 OUGM<-function(x0,k,theta,sigma,n,T,W){
   delta<-T/n
   X <- c(x0)
